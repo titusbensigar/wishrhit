@@ -1,0 +1,34 @@
+{
+  "name": "wishrhit",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "1.4.8",
+    "json3": "~3.3.2",
+    "requirejs": "~2.1.22",
+    "es5-shim": "~4.4.1",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0",
+    "angular-resource": "1.4.8",
+    "angular-cookies": "1.4.8",
+    "angular-sanitize": "1.4.8",
+    "angular-animate": "1.4.8",
+    "angular-touch": "1.4.8",
+    "angular-route": "1.4.8",
+    "angular-translate": "2.8.1",
+    "angular-bootstrap":"0.14.3",
+    "jquery": "~2.1.4",
+    "jqueryui": "~1.11.4",
+    "autofill-event": "~1.0.0",
+    "jquery.cookie": "~1.4.1",
+    "jqplot-bower": "~1.0.8"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.8",
+    "angular-scenario": "1.4.8",
+    "ng-file-upload": "~5.0.9"
+  },
+  "appPath": "app",
+  "resolutions": {
+    "angular": "1.4.8"
+  }
+}

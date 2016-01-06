@@ -1,0 +1,20 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET    	/                           		controllers.Assets.at(path="/public/app", file="index.html")
+GET		/index.html							controllers.Assets.at(path="/public/app", file="index.html")
+
+GET		/home.html							controllers.Assets.at(path="/public/app", file="home.html")
+
+GET		/showlogin							controllers.Assets.at(path="/public/app", file="login.html")
+GET		/registernew							controllers.Assets.at(path="/public/app", file="login.html")	
+
+POST 	/api/firstLogin						controllers.Application.firstLogin()
+POST 	/api/signup						controllers.Application.signup()
+POST 	/api/forgotPass						controllers.Application.forgotPass()
+POST 	/api/resetpassword						controllers.Application.resetPass()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public/app", file: Asset)

@@ -1,0 +1,63 @@
+#global
+app.name=WishRHit
+
+#Security
+security.noaccess=You are not authorized.
+
+
+#common
+fullname=Full name
+firstname=First Name
+middlename=Middle Name
+lastname=Last Name
+username=Username
+submit=Submit
+search=Search
+reset=Reset
+address1=Address 1
+address2=Address 2
+country=Country
+state=State
+if.other.state=If Other Specify
+city=City
+zipcode=ZIP/Postal Code
+email= Email Address
+phone=Phone Number
+mobile=Mobile Number
+dateformat=MM/DD/YYYY
+from=From
+to=To
+
+# -- Login --
+login.username=UserName
+login.password=Password
+
+# -- Home --
+home.welcome=Welcome
+home.home=Home
+home.users=Users
+home.search=Search
+home.menu=MENU
+home.settings=Settings
+home.profile=Profile
+home.logout=Logout
+
+email.registration.subject=New Registration - WishRHit
+email.registration.body=Thank you for registering with WishRHit, we are hoping that you will enjoy using it. <br/>
+email.forgot.subject=Retrieve Password - WishRHit
+email.forgot.body=<br/>Someone entered your email on the 'Retrieve Password' screen at WishRHit.<br/><br/><hr style='border: 1px dotted #ff0000; border-style: none none dotted; color: #fff; background-color: #fff;' /><br/>Temporary Password: 
+email.reset.subject=Reset Password - WishRHit
+email.reset.body=Password reset is complete. <br/>
+
+
+## UserORM.java ##
+E_10002_1=This account has expired. Please contact your Administrator.
+E_10002_2=User does not exist
+E_10002_3=The Username or Password you entered is not valid. Please try again. 
+E_10002_5_1=If you don't remember your password, please click <a href="forgotpassword.do" title="I Forgot My Password" class="contentlink" onClick="NewWindow(this.href,'forgotpassword' , '550' , '400');return false;">here</a>, or the I Forgot My Password link above.
+E_10002_5_2=Please remember passwords are case sensitive. Make certain you do not have the Caps Lock button active.
+E_10002_7=Current Password does not match, please re-enter. Please remember passwords are case sensitive. Make certain you do not have the Caps Lock button active.
+E_10002_8=Passwords typed do not match. Please re-enter your password.
+E_10002_18=The Current Password and New Password cannot be the same.
+E_100002_7 =New Password and Confirm Password do not match. 
+
